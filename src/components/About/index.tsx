@@ -52,7 +52,7 @@ export default function About() {
 
                     </Grid>
                     <Grid item xs={12} sm={8} >
-                        <div className="textBlock">
+                    <div className={classes.textBlock}>
                             <Typography variant="body1" paragraph={true} >
                                 I am a Full-Stack Web Developer with experience in Object-Oriented programming, Game Design, and all manner of web technologies including Javascript and frameworks such as React.
                         </Typography>
