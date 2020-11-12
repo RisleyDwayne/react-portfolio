@@ -1,12 +1,56 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/github/license/risleydwayne/react-?style=plastic)](./LICENSE)
 
-## Available Scripts
+## Table of Contents
+
+* [Description](#description)
+* [Deployed Link](#deployed-link)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
+
+## Description
+Created in React with Typescript, this is my development portfolio.
+
+## Deployed Link
+
+[Dwayne Risley React Portfolio](https://risleydwayne.github.io/react-portfolio/)
+
+## Screenshots
+
+![screenshot-about](https://user-images.githubusercontent.com/18751823/98993435-1356ae00-24f4-11eb-9869-5e2243af09d9.png)
+![screenshot-portfolio](https://user-images.githubusercontent.com/18751823/98993516-33866d00-24f4-11eb-9757-98b2e4a203fd.png)
+![screenshot-skills](https://user-images.githubusercontent.com/18751823/98993602-4bf68780-24f4-11eb-97eb-39a0b4083c46.png)
+
+## Technologies
+
+* [React.js](https://reactjs.org/)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Material UI](https://material-ui.com/)
+
+
+
+## Installation
+
+To install dependencies, run the following:
+
+`
+npm i
+`
+
+
+## Usage
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,33 +58,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app is ready to be deployed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This repository is licensed under the [MIT license](./LICENSE).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Questions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Questions about this repository? Please contact me at [risleydwayne@gmail.com](mailto:risleydwayne@gmail.com). View more of my work in GitHub at [RisleyDwayne](https://github.com/risleydwayne) 
