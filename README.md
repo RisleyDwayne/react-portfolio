@@ -1,6 +1,6 @@
 # React Portfolio
 
-[![License: MIT](https://img.shields.io/github/license/risleydwayne/react-?style=plastic)](./LICENSE)
+[![License: MIT](https://img.shields.io/github/license/risleydwayne/react-portfolio)](./LICENSE)
 
 ## Table of Contents
 
