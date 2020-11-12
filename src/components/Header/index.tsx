@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-
+import { HOME_PATH, SKILLS_PATH, PORTFOLIO_PATH } from '../../pathnames';
 
 const style = makeStyles((theme: Theme) =>
     createStyles({
@@ -35,9 +35,9 @@ export default function Header() {
                     <Typography variant="h5" className={classes.title}>
                         Dwayne Risley
                      </Typography>
-                     <Button color={location.pathname === "/" ? "secondary" : "inherit"} component={RouterLink} to="/">About</Button>
-                     <Button color={location.pathname === "/skills" ? "secondary" : "inherit"} component={RouterLink} to="/skills">Skills</Button>
-                    <Button color={location.pathname === "/portfolio" ? "secondary" : "inherit"} component={RouterLink} to="/portfolio">Portfolio</Button>
+                     <Button color={location.pathname === "/" ? "secondary" : "inherit"} component={RouterLink} to={HOME_PATH}>About</Button>
+                    <Button color={location.pathname === "/skills" ? "secondary" : "inherit"} component={RouterLink} to={SKILLS_PATH}>Skills</Button>
+                    <Button color={location.pathname === "/portfolio" ? "secondary" : "inherit"} component={RouterLink} to={PORTFOLIO_PATH}>Portfolio</Button>
                 </Toolbar>
             </AppBar>
         </header>
